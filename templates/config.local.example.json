@@ -1,0 +1,5 @@
+{
+  "_comment": "Copy to .kabot/config.local.json — NEVER commit this file. Env vars JIRA_BASE_URL / JIRA_EMAIL / JIRA_API_TOKEN take precedence.",
+  "email": "you@example.com",
+  "apiToken": "your-atlassian-api-token"
+}

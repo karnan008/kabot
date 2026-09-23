@@ -1,0 +1,12 @@
+{
+  "name": "kabot",
+  "description": "Ticket-to-automation pipeline for QA engineers. Turns a Jira ticket (or plain English) into test steps, decides what is automatable, writes the automation in your own framework's language and idiom, burn-in verifies it, and commits it with your approval. Framework-agnostic: it detects your stack instead of imposing one.",
+  "version": "0.1.0",
+  "author": {
+    "name": "karnan008"
+  },
+  "homepage": "https://github.com/karnan008/kabot",
+  "repository": "https://github.com/karnan008/kabot.git",
+  "license": "MIT",
+  "keywords": ["qa", "testing", "automation", "jira", "playwright", "appium", "selenium", "cypress", "test-generation"]
+}

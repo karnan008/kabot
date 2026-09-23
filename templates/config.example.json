@@ -1,0 +1,25 @@
+{
+  "_comment": "Copy to .kabot/config.json in your project. No secrets here — tokens go in .kabot/config.local.json (gitignored) or env vars.",
+
+  "tracker": "jira",
+  "baseUrl": "https://your-site.atlassian.net",
+  "projectKeys": ["ABC", "WEB", "MOB"],
+
+  "platformHints": {
+    "WEB": "web",
+    "MOB": "mobile"
+  },
+
+  "commentPrefix": "🤖 kabot",
+  "postCommentsBy": "ask",
+
+  "burnin": {
+    "isolatedRuns": 3,
+    "inSuiteRun": true
+  },
+
+  "git": {
+    "branchPattern": "feature/<KEY>-<short-description>",
+    "pushBy": "ask"
+  }
+}

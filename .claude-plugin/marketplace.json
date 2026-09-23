@@ -1,0 +1,17 @@
+{
+  "name": "kabot",
+  "owner": {
+    "name": "karnan008",
+    "url": "https://github.com/karnan008"
+  },
+  "metadata": {
+    "description": "kabot — framework-agnostic ticket-to-automation pipeline for QA engineers."
+  },
+  "plugins": [
+    {
+      "name": "kabot",
+      "source": "./",
+      "description": "Jira ticket -> test steps -> automatable cases -> generated automation in your own framework -> burn-in -> commit. Web and mobile."
+    }
+  ]
+}

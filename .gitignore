@@ -1,0 +1,9 @@
+# kabot never carries secrets or per-user state
+.kabot/config.local.json
+.kabot/runs/
+*.env
+.env*
+
+.DS_Store
+__pycache__/
+*.pyc
